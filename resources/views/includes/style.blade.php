@@ -59,3 +59,9 @@
         height: 160px;
     }
 </style>
+
+@push('before-style')
+@endpush
+
+@push('after-style')
+@endpush

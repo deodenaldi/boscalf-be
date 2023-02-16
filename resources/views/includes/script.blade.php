@@ -269,3 +269,9 @@
         // Bar Chart #flotBarChart End
     });
 </script>
+
+@push('before-script')
+@endpush
+
+@push('after-script')
+@endpush
