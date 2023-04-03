@@ -16,3 +16,4 @@ Route::get('/', 'DashboardController@index')->name('dashboard');
 Auth::routes();
 
 Route::resource('products', 'ProductController');
+Route::resource('products-gallery', 'ProductGalleryController');
